@@ -15,7 +15,7 @@
   </head>
 
   <body>
-    <%= render 'layouts/navbar' %>
+    <%= render 'layouts/navbar', count: @count_likes %>
     
     <div class="container">
       <%= render 'layouts/flash_messages' %>
